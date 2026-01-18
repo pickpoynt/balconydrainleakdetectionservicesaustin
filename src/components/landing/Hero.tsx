@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Phone, Shield, Clock, Award } from "lucide-react";
-import heroImage from "@/assets/hero-tankless.png";
+import heroImage from "@/assets/hero-well-pump.png";
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroImage}
-          alt="Professional plumber descaling a tankless water heater"
+          alt="Professional well pump replacement and pressure tank installation"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-overlay" />
@@ -20,18 +20,18 @@ const Hero = () => {
         <div className="max-w-3xl">
           <div className="animate-fade-in">
             <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-medium mb-6">
-              Bellevue's Trusted Tankless Experts
+              Overland Park's Trusted Well Experts
             </span>
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-primary-foreground mb-6 animate-fade-in-up leading-tight">
-            Tankless Water Heater Descaling in Bellevue, WA
-            <span className="block text-gradient-copper mt-2">Peak Performance.</span>
+            Well Pump Replacement in Overland Park, KS
+            <span className="block text-gradient-copper mt-2">Expert Repair.</span>
           </h1>
 
           <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-2xl animate-fade-in-delay-1">
-            Hard water mineral buildup can kill your tankless heater's efficiency.
-            Keep your endless hot water running strong with professional annual flushing and descaling.
+            No water? Low pressure? We specialize in 24/7 emergency well pump replacement
+            and repair. Keeping your home's water flowing with professional, reliable service.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-delay-2">

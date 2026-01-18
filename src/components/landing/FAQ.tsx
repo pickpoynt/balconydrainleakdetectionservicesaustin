@@ -7,32 +7,32 @@ import {
 
 const faqs = [
   {
-    question: "How often should I descale my tankless water heater?",
-    answer: "For most Bellevue homes, we recommend once a year. If you have extremely hard water or a high-usage household, every 6-9 months may be necessary to prevent mineral buildup and maintain efficiency."
+    question: "How long does a well pump typically last?",
+    answer: "Most high-quality submersible pumps last between 10 and 15 years. Factors like water quality, pump sizing, and the frequency of cycling (how often it turns on and off) can significantly impact this lifespan."
   },
   {
-    question: "Do I really need a professional for this?",
-    answer: "While DIY kits exist, a professional service includes critical safety checks that DIY kits miss. We inspect the heat exchanger for cracks, check the venting system for leaks, and clear any error codes in the system's memory."
+    question: "My water just stopped. Is it definitely the pump?",
+    answer: "Not necessarily. It could be a tripped circuit breaker, a failed pressure switch, or a problem with the pressure tank. We perform a full diagnostic to identify the exact cause before recommending a replacement."
   },
   {
-    question: "Will descaling help with my low water pressure?",
-    answer: "Yes! Mineral buildup inside the heat exchanger's narrow copper tubes is a common cause of declining hot water pressure. A thorough descaling often restores full pressure to your showers and faucets."
+    question: "How long does it take to replace a well pump?",
+    answer: "A standard submersible pump replacement usually takes 3 to 5 hours. We carry most common pump sizes and components on our trucks, allowing us to restore your water the same day in most cases."
   },
   {
-    question: "What happens if I don't descale my unit?",
-    answer: "Over time, scale acts as an insulator, forcing your heater to run hotter and longer to heat water. This leads to higher gas bills, frequent 'E5' or 'LC' error codes, and eventually, a costly heat exchanger failure."
+    question: "What is the benefit of a constant pressure system?",
+    answer: "Unlike traditional systems that have 'on' and 'off' cycles, constant pressure systems (VFDs) adjust the pump speed to provide steady, city-like pressure even when multiple faucets are running simultaneously."
   },
   {
-    question: "Is the descaling solution safe for my family?",
-    answer: "Absolutely. We use a food-grade, biodegradable citric acid solution that is highly effective against scale but completely safe for your potable water system and the environment."
+    question: "Do you service shallow well jet pumps too?",
+    answer: "Yes! While deep well submersibles are more common in Overland Park, we also service and replace shallow well jet pumps and their associated piping and controls."
   },
   {
-    question: "Do you service all tankless brands in Bellevue?",
-    answer: "Yes. We are factory-trained to service all major brands including Navien, Rinnai, Noritz, Rheem, and Takagi. We carry the specific diagnostic tools for each manufacturer."
+    question: "How do I know if my pressure tank is bad?",
+    answer: "The most common sign is 'short-cycling,' where the pump turns on and off every few seconds while you're using water. You might also notice fluctuating water pressure or a clicking sound coming from the switch."
   },
   {
-    question: "How long does a maintenance visit take?",
-    answer: "A standard descaling and full system diagnostic typically takes about 60 to 90 minutes. We'll have your hot water back on before we leave."
+    question: "Do you offer emergency well service on weekends?",
+    answer: "Absolutely. We know a lack of water is an urgent issue. We offer 24/7 emergency repair services to the Overland Park and Johnson County area."
   }
 ];
 
@@ -42,10 +42,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            Tankless Maintenance FAQ – Bellevue, WA
+            Well Water FAQ – Overland Park, KS
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Get professional answers to common questions about tankless water heater descaling, maintenance intervals, and efficiency in Bellevue.
+            Get professional answers to common questions about well pump replacement, pressure tanks, and system maintenance in Johnson County.
           </p>
         </div>
 

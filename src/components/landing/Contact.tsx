@@ -11,12 +11,12 @@ const Contact = () => {
               Get In Touch
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Contact Bellevue's Tankless Maintenance Experts
+              Contact Overland Park's Well Pump Experts
               <span className="text-gradient-copper block">Restore Your Flow</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Is your tankless heater overdue for a flush? Contact us today for a
-              professional descaling and system diagnostic. Endless hot water starts with proper maintenance.
+              No water or low pressure? Contact us today for priority emergency well service
+              or a free replacement quote. Licensed experts serving Johnson County 24/7.
             </p>
 
             <div className="space-y-6">
@@ -28,13 +28,13 @@ const Contact = () => {
                   <Phone className="w-6 h-6 text-primary-foreground" />
                 </div>
                 <div>
-                  <span className="text-sm text-muted-foreground block">Call Us Today</span>
+                  <span className="text-sm text-muted-foreground block">Call Us 24/7</span>
                   <span className="font-heading font-bold text-xl text-foreground">(877) 792-1410</span>
                 </div>
               </a>
 
               <a
-                href="mailto:info@bellevuetanklesspros.com"
+                href="mailto:info@overlandwellpros.com"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -42,7 +42,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Email Us</span>
-                  <span className="font-heading font-bold text-foreground">info@bellevuetanklesspros.com</span>
+                  <span className="font-heading font-bold text-foreground">info@overlandwellpros.com</span>
                 </div>
               </a>
 
@@ -52,7 +52,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Service Area</span>
-                  <span className="font-heading font-semibold text-foreground">Bellevue, Redmond, Kirkland & King County</span>
+                  <span className="font-heading font-semibold text-foreground">Overland Park, Olathe, Leawood & Johnson County</span>
                 </div>
               </div>
 
@@ -62,7 +62,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Business Hours</span>
-                  <span className="font-heading font-semibold text-foreground">Mon-Fri: 7AM-6PM | Sat: 9AM-3PM</span>
+                  <span className="font-heading font-semibold text-foreground">Available 24/7 for Emergency Well Service</span>
                 </div>
               </div>
             </div>
@@ -71,7 +71,7 @@ const Contact = () => {
           {/* Contact Form */}
           <div className="bg-card rounded-2xl p-8 shadow-lg border border-border">
             <h3 className="text-2xl font-heading font-bold text-foreground mb-6">
-              Request a Maintenance Appointment
+              Request Emergency Service or Quote
             </h3>
             <form className="space-y-6">
               <div className="grid sm:grid-cols-2 gap-4">
@@ -94,7 +94,7 @@ const Contact = () => {
                     type="text"
                     id="lastName"
                     className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                    placeholder="Doe"
+                    placeholder="Smith"
                   />
                 </div>
               </div>
@@ -125,13 +125,13 @@ const Contact = () => {
 
               <div>
                 <label htmlFor="message" className="text-sm font-medium text-foreground block mb-2">
-                  System Details
+                  Tell Us About Your Well Issue
                 </label>
                 <textarea
                   id="message"
                   rows={4}
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all resize-none"
-                  placeholder="What brand is your tankless unit? When was it last descaled?"
+                  placeholder="Describe your symptoms (no water, low pressure, sputtering, etc.)"
                 />
               </div>
 

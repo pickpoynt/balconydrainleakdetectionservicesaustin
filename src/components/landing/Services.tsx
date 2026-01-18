@@ -4,21 +4,21 @@ import { Button } from "@/components/ui/button";
 const services = [
   {
     icon: Wrench,
-    title: "Annual Descaling Flush",
-    description: "Our professional grade descaling solution removes calcium and mineral scale from your heat exchanger in just one hour.",
-    features: ["Calcium removal", "Increased efficiency", "Diagnostic check"],
+    title: "Submersible Pump Replace",
+    description: "Full replacement of deep well submersible pumps with high-efficiency modern units designed for longevity.",
+    features: ["Stainless steel models", "Increased pressure", "5-Year warranty"],
   },
   {
     icon: Droplets,
-    title: "Filter & Screen Cleaning",
-    description: "Full cleaning of the internal water filter and air intake screens to ensure proper combustion and water flow.",
-    features: ["Water filter service", "Air flow optimization", "System recalibration"],
+    title: "Pressure Tank Install",
+    description: "Installation of high-quality pressure tanks to eliminate pump short-cycling and ensure consistent water flow.",
+    features: ["Cycle protection", "Full system sizing", "Leak-proof fittings"],
   },
   {
     icon: Home,
-    title: "Full System Diagnostic",
-    description: "We check error codes, ignition components, and venting to catch small issues before they become cold showers.",
-    features: ["Error code review", "Ignition testing", "Vent path check"],
+    title: "Jet Pump Repair",
+    description: "Expert service and replacement for shallow well jet pumps, including priming and pressure switch calibration.",
+    features: ["Precision switches", "Self-priming units", "Motor repair"],
   },
 ];
 
@@ -31,10 +31,10 @@ const Services = () => {
             Specialized Care
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-            Expert Tankless Solutions in Bellevue
+            Expert Well Solutions in Overland Park
           </h2>
           <p className="text-muted-foreground text-lg">
-            Don't let hard Washington water damage your investment. Our maintenance services keep your tankless unit running like new.
+            Don't let a failing pump leave you without water. Our experts provide fast, reliable well service for Johnson County.
           </p>
         </div>
 
@@ -49,7 +49,7 @@ const Services = () => {
               </div>
 
               <h3 className="text-xl font-heading font-bold text-foreground mb-3">
-                {service.title} in Bellevue
+                {service.title} in Overland Park
               </h3>
 
               <p className="text-muted-foreground mb-6">

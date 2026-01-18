@@ -3,44 +3,44 @@ import { AlertTriangle, Droplets, Clock, Shield, CheckCircle2 } from "lucide-rea
 const warningSignsData = [
   {
     icon: Droplets,
-    title: "Low Hot Water Pressure",
-    description: "Minieral scale buildup inside the heat exchanger restricts water flow, leading to a noticeable drop in hot water pressure compared to cold.",
+    title: "Low Water Pressure",
+    description: "If your showers feel weak or appliances take forever to fill, your pump may be struggling or your pressure tank might be failing.",
   },
   {
     icon: AlertTriangle,
-    title: "Fluctuating Temperatures",
-    description: "If your hot water 'cuts out' during a shower, scale may be interfering with the unit's thermal sensors or flow switches.",
+    title: "Air Spitting from Faucets",
+    description: "Sputtering faucets are a classic sign of a leak in the drop pipe or a well pump that is no longer fully submerged.",
   },
   {
     icon: Clock,
-    title: "Overworked Burners",
-    description: "Scale acts as an insulator. If your heater sounds louder than usual or takes longer to fire up, it's working too hard to penetrate the buildup.",
+    title: "Pump Constant Cycling",
+    description: "If you hear your pump clicking on and off frequently, your pressure tank has likely lost its internal air charge.",
   },
 ];
 
 const benefitsData = [
-  "Restores original energy efficiency",
-  "Ensures consistent hot water temperatures",
-  "Prevents expensive heat exchanger failure",
-  "Required for manufacturer warranty compliance",
-  "Extends system lifespan by up to 10 years",
-  "Clears annoying error codes (E5, LC, 12)",
+  "Ensures consistent household water pressure",
+  "Prevents sudden 'no water' emergencies",
+  "Reduces electrical bills from short-cycling",
+  "Protects plumbing fixtures from sediment",
+  "Extends the life of your entire well system",
+  "Peace of mind for your family's water needs",
 ];
 
-const TanklessMaintenanceInfo = () => {
+const WellPumpInfo = () => {
   return (
-    <section id="maintenance-info" className="py-24 bg-gradient-hero">
+    <section id="well-info" className="py-24 bg-gradient-hero">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-semibold mb-4">
-            Protect Your Investment
+            Total Water Control
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary-foreground mb-4">
-            Why Annual Tankless Descaling is Mandatory in Bellevue
+            Reliable Well Water Systems for Overland Park Homes
           </h2>
           <p className="text-primary-foreground/80 text-lg">
-            Washington's water contains minerals that solidify inside your heater's heat exchanger.
-            Without an annual flush, this 'scale' will eventually cause your unit to overheat and fail.
+            A failing well pump can disrupt your entire day. We provide expert diagnostics
+            and rapid replacement to ensure your Overland Park home never runs dry.
           </p>
         </div>
 
@@ -70,24 +70,24 @@ const TanklessMaintenanceInfo = () => {
             <div className="flex items-center gap-3 mb-6">
               <Shield className="w-8 h-8 text-copper" />
               <h3 className="text-2xl font-heading font-bold text-foreground">
-                Don't Void Your Warranty
+                Expert Submersible Service
               </h3>
             </div>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              Most major manufacturers like Navien and Rinnai explicitly state in their
-              manuals that damage caused by scale buildup is NOT covered under warranty.
-              Annual professional descaling provides the documentation you need to keep your 15-year warranty valid.
+              Most deeply buried well pumps fail eventually due to motor fatigue or
+              electrical surges. Our team uses specialized equipment to pull and replace
+              pumps safely, without damaging your well casing or electrical lines.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              In Bellevue, we serve all areas from Enatai and Beaux Arts to Wilburton and
-              Bridle Trails. We've seen hundreds of heaters fail prematurely simply because
-              the homeowner didn't know maintenance was required.
+              In Overland Park and Johnson County, we serve communities from Leawood and
+              Prairie Village to Olathe and Lenexa. We understand local water table
+              conditions and recommend the best pump sizing for your specific well depth.
             </p>
           </div>
 
           <div className="bg-gradient-to-br from-primary to-primary/80 rounded-2xl p-8 lg:p-10 shadow-xl">
             <h3 className="text-2xl font-heading font-bold text-primary-foreground mb-6">
-              Benefits of Professional Maintenance
+              Benefits of a New High-Efficiency Pump
             </h3>
             <ul className="space-y-4">
               {benefitsData.map((benefit, index) => (
@@ -107,7 +107,7 @@ const TanklessMaintenanceInfo = () => {
           <div className="inline-flex items-center gap-4 bg-primary-foreground/10 backdrop-blur-sm rounded-full px-8 py-4">
             <AlertTriangle className="w-6 h-6 text-copper" />
             <span className="text-primary-foreground font-medium text-lg">
-              Is your unit displaying an 'LC' or 'E5' code? That's a scale warning. Call us for a priority Bellevue maintenance visit.
+              Is your water Pressure fluctuating or have you completely lost water? Call us for priority emergency service.
             </span>
           </div>
         </div>
@@ -116,4 +116,4 @@ const TanklessMaintenanceInfo = () => {
   );
 };
 
-export default TanklessMaintenanceInfo;
+export default WellPumpInfo;

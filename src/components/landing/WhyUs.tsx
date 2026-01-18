@@ -3,33 +3,33 @@ import { Shield, Users, ThumbsUp, Clock, DollarSign, Hammer } from "lucide-react
 const reasons = [
   {
     icon: Users,
-    title: "Bellevue Neighborhood Pros",
-    description: "Serving West Bellevue, Somerset, and Crossroads with local, expert care.",
+    title: "Overland Park Local Pros",
+    description: "Serving Johnson County and surrounding areas with fast, specialized well care.",
   },
   {
     icon: Shield,
-    title: "Warranty Protection",
-    description: "Regular descaling is required by most manufacturers to keep your warranty valid.",
+    title: "24/7 Emergency Service",
+    description: "We know no water is a true emergency. We're available day or night to restore your flow.",
   },
   {
     icon: DollarSign,
-    title: "Protect Your Investment",
-    description: "Annual maintenance can double the lifespan of your expensive tankless unit.",
+    title: "Upfront Fixed Pricing",
+    description: "No hidden fees. We provide clear, honest quotes before any work begins on your well.",
   },
   {
     icon: Clock,
-    title: "Fast 1-Hour Service",
-    description: "Most descaling and maintenance visits are completed in under 60 minutes.",
+    title: "Fast Response Time",
+    description: "Most well pump replacements are completed the same day you call us.",
   },
   {
     icon: ThumbsUp,
     title: "All Brands Serviced",
-    description: "Certified expertise with Navien, Rinnai, Noritz, and Rheem systems.",
+    description: "Certified expertise with Goulds, Grundfos, Franklin Electric, and more.",
   },
   {
     icon: Hammer,
-    title: "Professional Chemicals",
-    description: "We use eco-friendly, food-grade descaling solutions that are safe for your pipes.",
+    title: "Lifetime Support",
+    description: "We don't just install and leave. We provide ongoing support for your well water system.",
   },
 ];
 
@@ -43,23 +43,23 @@ const WhyUs = () => {
               Why Choose Us
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Bellevue's Most Reliable
-              <span className="text-gradient-copper block">Tankless Maintenance Team</span>
+              Overland Park's Premier
+              <span className="text-gradient-copper block">Well Water Service Team</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              We specialize exclusively in tankless technology. While general plumbers might say
-              they 'do it all,' we focus on the complex electronics and heat exchangers of
-              modern high-efficiency heaters.
+              We specialize exclusively in well water systems. While general plumbers might say
+              they 'do it all,' we focus on the complex electrical and mechanical components of
+              modern high-efficiency well pumps and tanks.
             </p>
 
             <div className="flex items-center gap-8">
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">2,000+</span>
-                <span className="text-sm text-muted-foreground">Units Served</span>
+                <span className="text-4xl font-heading font-bold text-copper block">1,500+</span>
+                <span className="text-sm text-muted-foreground">Wells Serviced</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">15+</span>
+                <span className="text-4xl font-heading font-bold text-copper block">20+</span>
                 <span className="text-sm text-muted-foreground">Years Experience</span>
               </div>
               <div className="w-px h-16 bg-border" />
